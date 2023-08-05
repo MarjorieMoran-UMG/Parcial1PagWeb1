@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Susan Wojcicki - CEO de YouTube</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+  <style>
+    .flex-container {
+      display: flex;
+      justify-content: space-between;
+    }
+    .flex-item {
+      flex: 1;
+      margin: 0 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Susan Wojcicki</h1>
+    <h2>CEO de YouTube</h2>
+    <div class="menu-icon" onclick="toggleMenu()"><i class="fas fa-bars"></i></div> 
+    <nav id="menu">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="DatosInteresantes&Curiosidades.html" target="_self">Datos interesantes & curiosidades</a></li>
+        <li><a href="PremiosRecibidos.html" target="_self">Premios recibidos</a></li>
+        <li><a href="Contacto&mas.html" target="_self">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <img src="Susan_Wojcicki.jpg" alt="Imagen de perfil" class="profile-image">
+      <p>¡Visita su perfil para descubrir más de Susan!<a href="https://www.instagram.com/susanwojcicki/?hl=es"> haz clic aquí</a>.</p>
+      <h3>Biografía</h3>
+      <p>Susan Wojcicki es una empresaria y ejecutiva de tecnología estadounidense, nacida el 5 de julio de 1968 en Santa Clara, California. Es conocida principalmente por ser la CEO de YouTube, una de las plataformas de video más grandes e influyentes del mundo. 
+        A continuación, se presentan algunos datos destacados e interesantes sobre su vida y carrera:
+        Biografía: (subtítulo) 
+        •	Susan Wojcicki es hija de padres de ascendencia polaca. Su padre, Stanley Wojcicki, es un reconocido profesor de física en la Universidad de Stanford, y su madre, Esther Wojcicki, es una educadora y autora.
+        •	Obtuvo su licenciatura en Historia y Literatura Inglesa en la Universidad de Harvard y luego completó un máster en Administración de Empresas (MBA) en la Escuela de Negocios de la Universidad de California en Los Ángeles (UCLA).
+        •	Antes de unirse a YouTube, trabajó en diversas empresas tecnológicas líderes. Fue la primera gerente de marketing de Google, donde desempeñó un papel crucial en el desarrollo y lanzamiento de AdSense, un producto publicitario clave de la compañía.
+        •	En 2006, Wojcicki sugirió a Google la adquisición de YouTube por 1.650 millones de dólares, una decisión que resultó ser una de las más acertadas de la empresa, ya que YouTube se convirtió en una parte integral de Google y en una plataforma de video líder en el mundo.
+        •	En 2014, fue nombrada CEO de YouTube, convirtiéndose en la primera mujer en dirigir la plataforma. Desde entonces, ha desempeñado un papel importante en el crecimiento y la evolución de YouTube, enfrentando desafíos como la monetización, la moderación de contenido y la expansión a nuevos mercados y formatos.
+        </p>
+    </section>
+
+    <section>
+      <h3>Datos destacados</h3>
+      <p>•	En 2019, Susan Wojcicki fue incluida en la lista de las 100 personas más poderosas del mundo de la revista Forbes.
+        •	Durante su mandato como CEO de YouTube, ha sido una defensora activa de la libertad de expresión y la creatividad, al tiempo que trabaja para mantener un ambiente seguro y proteger a los usuarios de contenido inapropiado y peligroso.
+        •	Como líder de YouTube, Wojcicki ha trabajado para expandir la presencia y los servicios de la plataforma en áreas como YouTube Music, YouTube Premium y YouTube Originals, ofreciendo a los creadores más oportunidades para monetizar su contenido y llegar a nuevas audiencias.
+        •	Ha sido una voz importante en debates sobre derechos de autor, derechos de los creadores y regulación de contenido en línea, tratando de equilibrar los intereses de los usuarios, los anunciantes y los propios creadores de contenido.
+        
+        Susan Wojcicki ha sido una figura influyente en la industria tecnológica y de los medios, y su liderazgo en YouTube ha sido fundamental para el éxito continuo de la plataforma y su impacto en la cultura digital global.
+        </p>
+    </section>
+
+    <section>
+        <div class="image-container">
+            <img src="Susan_Wojcicki1.jpg" alt="Imagen 2" class="profile-image">
+            <img src="Susan_Wojcicki2.jpg" alt="Imagen 3" class="profile-image">
+      </section>
+  </main>
+
+  <section class="flex-container">
+    <div class="flex-item yellow-bg">
+      <h3></h3>
+      <p>"Lo bueno de internet es que se puede lanzar un producto y, en tan solo unas horas, la gente va decir lo que piensa al respecto" - Susan Wojcicki</p>
+    </div>
+    <div class="flex-item blue-bg">
+      <h3></h3>
+      <p>"Las cosas siempre están cambiando. Parte de ser exitosa es sentirse cómoda con no saber qué va pasar" - Susan Wojcicki</p>
+    </div>
+    <div class="flex-item green-bg">
+      <h3></h3>
+      <p>"Trabaja inteligente. Termina las cosas. Sin tonterías. Muévete rápido" - Susan Wojcicki</p>
+    </div>
+  </section>
+</main>
+
+  <footer>
+    <p>&copy; 2023 - Susan Wojcicki página por Marjorie Moran </p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById("menu");
+      if (menu.style.display === "block") {
+        menu.style.display = "none";
+      } else {
+        menu.style.display = "block";
+      }
+    }
+  </script>
+</body>
+</html>

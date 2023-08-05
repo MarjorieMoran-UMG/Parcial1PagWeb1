@@ -1,0 +1,149 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@400;700&display=swap');
+
+body {
+  font-family: 'Faustina', Arial, sans-serif; 
+  background-image: url("fondo.jpg"); 
+  background-size: cover;
+  color: #141414; 
+  margin: 0; 
+  padding-top: 100px; 
+  padding-bottom: 80px;
+  padding-left: 180px;
+  padding-right: 180px; 
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-item {
+  flex: 1;
+  margin: 0 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-style: italic;
+}
+
+.yellow-bg {
+  background-color: #ff5aacb6;
+}
+
+.blue-bg {
+  background-color: #21d65d9c;
+}
+
+.green-bg {
+  background-color: #4f73d6c0;
+}
+
+header {
+  font-family: 'Faustina', Arial, sans-serif; 
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  background-color: rgb(194, 98, 207); 
+  padding: 5px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: flex-start; 
+  z-index: 1; 
+  color: #FFFFFF;
+}
+
+h1 {
+  font-weight: bold; 
+  font-size: 45px;
+  margin-bottom: 10px; 
+}
+
+h2 {
+  font-weight: bold; 
+  font-size: 24px; 
+  margin-bottom: 10px; 
+}
+
+
+.profile-image {
+  max-width: 400px; 
+  height: auto;
+  display: block;
+  margin: 0 auto; 
+  margin-bottom: 0px; 
+}
+
+/* Contenedor de imágenes */
+.image-container {
+  display: flex; /* Mostrar las imágenes en una fila */
+  justify-content: space-between; 
+  margin-top: 20px;
+}
+
+/* Resto del CSS */
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li a {
+  font-family: 'Faustina', Arial, sans-serif; /* Enlaces del menú */
+  font-weight: bold; 
+  color: #FFFFFF; 
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #FFD700; 
+}
+
+main {
+  padding-top: 150px; 
+  margin-bottom: 60px; 
+}
+
+footer {
+  font-family: 'Faustina', Arial, sans-serif; 
+  background-color: rgb(194, 98, 207);
+  padding: 8px;
+  position: fixed; 
+  bottom: 0; 
+  left: 0; 
+  width: 100%; 
+  text-align: center; 
+  color: #FFFFFF; 
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #00e1ff;
+  padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+  nav ul {
+    display: none;
+    flex-direction: column;
+  }
+  nav li {
+    margin-right: 0;
+  }
+  nav li a {
+    padding: 0px;
+    border-bottom: 1px solid #00dbeb;
+  }
+}
